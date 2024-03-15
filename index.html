@@ -1,0 +1,79 @@
+<!--PROJETO MARIO BROS (1000 EM 7 DIAS)-->
+
+<!--PÁGINA PRINCIPAL-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Super Mario Bros</title>
+</head>
+
+<div class="header">
+
+    <img src="./mario.png/logo-header.png" alt="cabeça mario" class="cabeça.mario">
+
+    <a>Home</a>
+    <a>Nossos Serviços</a>
+    <a>Fale Conosco</a>
+
+</div>
+
+<body>
+
+    <div class="mascara-formulario" alt="mascara formulario" onclick="CliqueiNaMascara()"></div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+
+            <img src="./mario.png/logo.png" alt="logotipo.supermario" class="logo-mario">
+
+            <p class="texto-propaganda">
+                Nós somos os Super Mario Bros®. Os melhores encanadores do Brooklin e cidades vizinhas. Serviço completo
+                com
+                a
+                garantia e segurança que o cliente precisa e merece. Passando por infiltraçoes, desperdícios de água,
+                entupimentos e
+                etc?
+                Chame os Mario Bros®!
+            </p>
+
+            <button onclick="CliqueiNoBotao()">Chame Mario Bros Aqui</button>
+
+
+        </div>
+
+        <div class="box-img-mario.luigi"> <!--Imagem Mario e Luigi de pé-->
+            <img src="./mario.png/mario.luigi.png" alt="imagem marioluigi" class="imagem-marioluigi">
+        </div>
+    </div>
+
+    <div class="caixa-video"> <!--Video do Super Mario (Fundo)-->
+        <video src="./mario.png/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+
+    </div>
+
+    <a href="https://wa.me/5521900000000?text=Ol%C3%A1%21+Preciso+dos+servi%C3%A7os+dos+irm%C3%A3os+Mario."
+        class="link-whatsapp" target="_blank">
+        <img src="./mario.png/whatsapplogo-removebg-preview.png" alt="link do whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" alt="formulario fale conosco" action="https://formcarry.com/s/CclJha8O47U"
+        method="POST" enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui" name="duvidas"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
+
+<!--href="./servicos.html" class="nossos.serviços" target="_blank" 
+    (configuração para link "Nossos Serviços")-->
